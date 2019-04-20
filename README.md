@@ -31,7 +31,8 @@ JPA Repository interface has @Repository annotation
 Notice the FetchDataServiceTest.java:
 ```
 1. @RunWith(MockitoJUnitRunner.class)
-2. Create service with mocked services and repositories. Look how constructor auto-wiring is used in the service for passing the mock objects in test case.
+2. Create service with mocked services and repositories. 
+Look how constructor auto-wiring is used in the service for passing the mock objects in test case.
 3. Mock function calls:
   Mockito.when(mockedObect.someFunc( Mockito.any() ).thenReturn(someData) ; 
   ```
