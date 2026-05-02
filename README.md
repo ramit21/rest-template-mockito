@@ -1,6 +1,7 @@
 # rest-template-mockito
 Problem involving rest template with mocked unit testing in spring boot
 
+Runs on JDK 11.
 
 Problem Statement:
 Scaffold a spring boot project, make call to url given below, which gives back JSON data.
